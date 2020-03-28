@@ -1,19 +1,18 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <router-outlet></router-outlet>
+
+<div *ngIf="fullscreenEnabled" style="position: fixed; top: 10px; right: 10px;" (click)="toggleFullScreen($event)">
+<svg viewBox="0 0 26 26" style="position:fixed; top:8px; right: 8px; height: 50px">
+    
+    <path *ngIf="!isFullscreen"
+    style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.50719488;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+    d="m 11.124396,0.75356175 -10.3707984,0.003 V 11.121482 L 4.0152616,7.8627517 7.8627307,11.710222 11.713139,7.8627517 7.8627307,4.0123317 Z m 4.209548,0 3.261659,3.25872995 -3.850408,3.85042 3.850408,3.8474703 3.847469,-3.8474703 3.261664,3.2587303 V 0.75652175 Z M 7.8627307,14.748112 l -3.8474691,3.84746 -3.261664,-3.25873 v 10.36493 l 10.3707984,0.003 -3.2616653,-3.25873 3.8504083,-3.85043 z m 10.7328723,0 -3.850408,3.84746 3.850408,3.85043 -3.261659,3.25873 10.370792,-0.003 v -10.36492 l -3.261664,3.25873 z"
+    />
+
+    <path *ngIf="isFullscreen"
+    id="path44"
+    d="m 4.9052002,1.1891969 -3.715956,3.7131 3.715956,3.71597 -3.147767,3.1449401 10.0086478,-0.003 V 1.7572769 l -3.1477668,3.14488 z m 16.6479328,0 -3.713114,3.7131 -3.147767,-3.14488 V 11.760347 l 10.008648,0.003 -3.147767,-3.1449401 3.715957,-3.71597 z M 1.7574332,14.695057 l 3.147767,3.14493 -3.715956,3.71597 3.715956,3.71311 3.713114,-3.71311 3.1477668,3.14488 v -10.00292 z m 22.9434668,0 -10.008648,0.003 v 10.00298 l 3.147767,-3.14493 3.713114,3.7131 3.715957,-3.7131 -3.715957,-3.71597 z"
+    style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.45456326;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+
+</svg>
+
+</div>
