@@ -13,7 +13,7 @@ export class PhoneComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  clickButton(event) {
+  clickDial(event) {
     let target = event.target || event.srcElement || event.currentTarget;
     console.log(event, this.router);
     this.router.navigate(['listen', 'favola-01.mpeg']);
