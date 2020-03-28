@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-listen',
@@ -7,15 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListenComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   // Material Style Basic Audio Player Title and Audio URL
   msbapTitle = 'Audio Title';
-  msbapAudioUrl = 'assets/playme.mp4';   
+  msbapAudioUrl = null;
   msaapDisplayVolumeControls = true;
   msbapDisplayTitle = false;
   
   ngOnInit(): void {
+    this.route.params.subscribe(p => {this.msbapAudioUrl = 'assets/'+p['id']});
   }
 
 }

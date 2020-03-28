@@ -1,5 +1,5 @@
 <p>listen works!</p>
-<div>
+<div *ngIf="msbapAudioUrl">
     <mat-basic-audio-player [audioUrl]="msbapAudioUrl" [title]="msbapTitle" [autoPlay]="true" muted="muted"
         [displayTitle]="msbapDisplayTitle" [displayVolumeControls]="msaapDisplayVolumeControls"></mat-basic-audio-player>
 </div>

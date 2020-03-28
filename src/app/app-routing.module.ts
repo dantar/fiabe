@@ -6,7 +6,7 @@ import { ListenComponent } from './components/listen/listen.component';
 
 const routes: Routes = [
   {path: '', component: PhoneComponent},
-  {path: 'listen', component: ListenComponent},
+  {path: 'listen/:id', component: ListenComponent},
   {path: 'phone', component: PhoneComponent},
 ];
 
