@@ -26,8 +26,8 @@
       <metadata
          id="metadata5">
       </metadata>
-      <image
-      href="assets/fiabe-03-sml.jpg"
+      <image *ngIf="favola"
+      [attr.href]="favola.image"
       y="0"
       x="0"
       id="image44"
@@ -102,8 +102,8 @@
        </svg>
 </div>
 
-<div *ngIf="msbapAudioUrl" class="audio-player-box">
-    <mat-basic-audio-player [audioUrl]="msbapAudioUrl" [title]="msbapTitle" [autoPlay]="true" muted="muted"
+<div *ngIf="favola" class="audio-player-box">
+    <mat-basic-audio-player [audioUrl]="favola.audio" [title]="msbapTitle" [autoPlay]="true" muted="muted"
         [displayTitle]="msbapDisplayTitle" [displayVolumeControls]="msaapDisplayVolumeControls"></mat-basic-audio-player>
 </div>
     

@@ -83,11 +83,10 @@
      cx="-15.30252"
      cy="-10.627846"
      r="1.0073647" />
-  <image (click)="clickDial($event)"
-  href="assets/fiabe-03-sml.jpg"
+  <image (click)="clickDial(imghref[0], $event)"
+  [attr.href]="imghref[0].image"
   y="3.8433464"
   x="14.297103"
-  id="image44"
   preserveAspectRatio="none"
   height="2.0108333"
   width="2.0108333"

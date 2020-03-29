@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AudioLibraryService } from 'src/app/services/audio-library.service';
+import { Favola } from 'src/app/models/favola.model';
 
 @Component({
   selector: 'app-phone',
@@ -8,15 +10,16 @@ import { Router } from '@angular/router';
 })
 export class PhoneComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private library: AudioLibraryService) { }
+
+  imghref: Favola[];
 
   ngOnInit(): void {
+    this.imghref = [this.library.dial[0]];
   }
 
-  clickDial(event) {
-    let target = event.target || event.srcElement || event.currentTarget;
-    console.log(event, this.router);
-    this.router.navigate(['listen', 'favola-01.mpeg']);
+  clickDial(favola: Favola, event: any) {
+    this.router.navigate(['listen', favola.id]);
   }
 
 }

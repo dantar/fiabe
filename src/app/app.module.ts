@@ -8,6 +8,8 @@ import { NgxAudioPlayerModule } from 'ngx-audio-player';
 import { PhoneComponent } from './components/phone/phone.component';
 import { ListenComponent } from './components/listen/listen.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { GamesCommonService } from './services/games-common.service';
+import { AudioLibraryService } from './services/audio-library.service';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
     NgxAudioPlayerModule
   ],
   providers: [
+    GamesCommonService,
+    AudioLibraryService,
     {provide: LocationStrategy, useClass: HashLocationStrategy},    
   ],
   bootstrap: [AppComponent]
