@@ -9,7 +9,14 @@ echo $TODAY
 
 cd ~/hack/git/fiabe
 ng build --base-href=./
-scp -r ~/hack/git/fiabe/dist/fiabe ada-ubuntu-devel:/tmp/fiabe-$TODAY
-ssh ada-ubuntu-devel ssh -i /home/hyperborea/.ssh/service.rsa fiabe@173.212.227.89 mv html html-$TODAY
-ssh ada-ubuntu-devel scp -i /home/hyperborea/.ssh/service.rsa -r /tmp/fiabe-$TODAY fiabe@173.212.227.89:html
 
+# open master socker tunnel
+ssh -M -S my-ctrl-socket -fnNT -L 8022:173.212.227.89:22 ada-ubuntu-devel
+# check master socker
+ssh -S my-ctrl-socket -O check ada-ubuntu-devel
+
+rsync -varzh -e "ssh -p 8022 -i ~/.ssh/service.rsa" resources fiabe@localhost:
+rsync -varzh -e "ssh -p 8022 -i ~/.ssh/service.rsa" ~/hack/git/fiabe/dist/fiabe/* fiabe@localhost:/var/www/fiabe
+
+# close master socket
+ssh -S my-ctrl-socket -O exit ada-ubuntu-devel
