@@ -22,7 +22,7 @@ export class ListenComponent implements OnInit {
   msbapTitle = 'Audio Title';
   msbapAudioUrl = null;
   msaapDisplayVolumeControls = true;
-  msbapDisplayTitle = true;
+  msbapDisplayTitle = false;
   
   ngOnInit(): void {
     this.route.params.subscribe(p => {

@@ -15,7 +15,14 @@ export class PhoneComponent implements OnInit {
   imghref: Favola[];
 
   ngOnInit(): void {
-    this.imghref = [this.library.dial[0]];
+    this.imghref = [
+      this.library.dial[0],
+      this.library.dial[1],
+      this.library.dial[2],
+      this.library.dial[3],
+      this.library.dial[4],
+      this.library.dial[5],
+    ];
   }
 
   clickDial(favola: Favola, event: any) {
