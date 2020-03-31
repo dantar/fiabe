@@ -8,7 +8,7 @@ TODAY=`date +%Y-%m-%d-%H-%M-%S`
 echo $TODAY
 
 cd ~/hack/git/fiabe
-ng build --base-href=./
+ng build --base-href=./ --prod
 
 # open master socker tunnel
 ssh -M -S my-ctrl-socket -fnNT -L 8022:173.212.227.89:22 ada-ubuntu-devel
