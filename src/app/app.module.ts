@@ -11,6 +11,9 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { GamesCommonService } from './services/games-common.service';
 import { AudioLibraryService } from './services/audio-library.service';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +23,7 @@ import { AudioLibraryService } from './services/audio-library.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     NgxAudioPlayerModule
   ],
   providers: [

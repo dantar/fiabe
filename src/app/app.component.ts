@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,10 @@ export class AppComponent implements OnInit {
   d:any;
   fullscreenEnabled: boolean;
   isFullscreen: boolean;
+
+  constructor(
+    public router: Router
+  ) {}
 
   ngOnInit(): void {
     this.d = document;
