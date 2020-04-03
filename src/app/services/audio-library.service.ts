@@ -32,6 +32,12 @@ export class AudioLibraryService {
       icon: 'assets/fiabe-04-sml.jpg',
       image: 'assets/fiabe-04-sml.jpg',
     },
+    { id: 'favola-05',
+      titolo: 'Il topo che mangiava i gatti', 
+      audio: 'assets/favola-05.mpeg',
+      icon: 'assets/favola-05.jpg',
+      image: 'assets/favola-05.png',
+    },
   ];
 
   dial: Favola[];
