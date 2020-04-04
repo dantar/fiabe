@@ -12,13 +12,15 @@ import { GamesCommonService } from './services/games-common.service';
 import { AudioLibraryService } from './services/audio-library.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowseAllComponent } from './components/browse-all/browse-all.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PhoneComponent,
-    ListenComponent
+    ListenComponent,
+    BrowseAllComponent
   ],
   imports: [
     BrowserModule,

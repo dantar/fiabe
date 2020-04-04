@@ -1,0 +1,35 @@
+<style>
+    .fullpage {
+        position:fixed; 
+        top:0; 
+        left:0;
+        height:100%; 
+        width:100%; 
+        background-color: #e9e6dd; 
+        overflow: scroll; 
+    }
+    .browse-all-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .browse-all-item {
+        height: 250px;
+        margin: 10px;
+    }
+    .browse-all-item img {
+        height: 250px;
+    }
+</style>
+<div class="fullpage" *ngIf="library">
+
+    <div class="browse-all-list">
+
+        <div *ngFor="let favola of favole" class="browse-all-item">
+            <img [src]="favola.icon" (click)="router.navigate(['listen', favola.id])" />
+        </div>
+    </div>
+
+</div>
