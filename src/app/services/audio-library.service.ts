@@ -18,6 +18,10 @@ export class AudioLibraryService {
   constructor(private games: GamesCommonService) {
     this.fmap = {};
     this.favole.forEach(f=>this.fmap[f.id] = f);
+    this.shuffle();
+  }
+
+  shuffle() {
     this.dial = [];
     for (let index = 0; index < 10; index++) {
       this.dial.push(this.onemore());

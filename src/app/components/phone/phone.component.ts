@@ -19,7 +19,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
 })
 export class PhoneComponent implements OnInit {
 
-  constructor(private router: Router, private library: AudioLibraryService) { }
+  constructor(public router: Router, public library: AudioLibraryService) { }
 
   dialstate: string;
 
