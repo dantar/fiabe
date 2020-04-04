@@ -1,0 +1,32 @@
+[
+    { "id": "favola-01",
+      "titolo": "L'Apollonia della marmellata", 
+      "audio": "assets/favola-01.mpeg.mp3",
+      "icon": "assets/fiabe-01-sml.jpg",
+      "image": "assets/fiabe-01-sml.jpg"
+    },
+    { "id": "favola-02",
+      "titolo": "A toccare il naso del re", 
+      "audio": "assets/favola-02.mpeg.mp3",
+      "icon": "assets/fiabe-02-sml.jpg",
+      "image": "assets/fiabe-02-sml.jpg"
+    },
+    { "id": "favola-03",
+      "titolo": "Cucina spaziale", 
+      "audio": "assets/favola-03.mpeg.mp3",
+      "icon": "assets/fiabe-03-sml.jpg",
+      "image": "assets/fiabe-03-sml.jpg"
+    },
+    { "id": "favola-04",
+      "titolo": "Il palazzo di gelato", 
+      "audio": "assets/favola-04.mpeg.mp3",
+      "icon": "assets/fiabe-04-sml.jpg",
+      "image": "assets/fiabe-04-sml.jpg"
+    },
+    { "id": "favola-05",
+      "titolo": "Il topo che mangiava i gatti", 
+      "audio": "assets/favola-05.mpeg.mp3",
+      "icon": "assets/favola-05-icon.jpg",
+      "image": "assets/favola-05.png"
+    }
+  ]
