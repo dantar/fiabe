@@ -13,6 +13,7 @@ import { AudioLibraryService } from './services/audio-library.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowseAllComponent } from './components/browse-all/browse-all.component';
+import { AboutComponent } from './components/about/about.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { BrowseAllComponent } from './components/browse-all/browse-all.component
     AppComponent,
     PhoneComponent,
     ListenComponent,
-    BrowseAllComponent
+    BrowseAllComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
