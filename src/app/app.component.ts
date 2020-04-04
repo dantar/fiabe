@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
+
+declare let gtag: Function;
 
 @Component({
   selector: 'app-root',
@@ -13,9 +15,13 @@ export class AppComponent implements OnInit {
   fullscreenEnabled: boolean;
   isFullscreen: boolean;
 
-  constructor(
-    public router: Router
-  ) {}
+  constructor(public router: Router) {
+    this.router.events.subscribe(event => {
+      if(event instanceof NavigationEnd){
+        gtag('config', 'G-KYH92BHQJ6', {'page_path': event.urlAfterRedirects});
+      }
+    })    
+  }
 
   ngOnInit(): void {
     this.d = document;
