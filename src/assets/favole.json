@@ -20,8 +20,8 @@
     { "id": "favola-04",
       "titolo": "Il palazzo di gelato", 
       "audio": "assets/favola-04.mpeg.mp3",
-      "icon": "assets/fiabe-04-sml.jpg",
-      "image": "assets/fiabe-04-sml.jpg"
+      "icon": "assets/pioggia di Piombino-icon.jpg",
+      "image": "assets/pioggia di Piombino.jpg"
     },
     { "id": "favola-05",
       "titolo": "Il topo che mangiava i gatti", 
