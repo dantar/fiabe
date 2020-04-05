@@ -9,23 +9,19 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
   styleUrls: ['./phone.component.scss'],
   animations: [
     trigger('dissolve', [
-      state('invisible', style({opacity: 0})),
-      state('visible', style({opacity: 1})),
       transition(':enter', [style({opacity: 0}), animate('500ms', style({opacity: 1}))]),
       transition(':leave', [style({opacity: 1}), animate('200ms', style({opacity: 0}))]),
-      transition('invisible=>visible', [animate('100s')]),
-      transition('visible=>invisible', [animate('10s')]),
     ]),
   ]
 })
 export class PhoneComponent implements OnInit {
 
-  dials: string;
+  shown: boolean;
 
   constructor(public router: Router, public library: AudioLibraryService) { }
 
   ngOnInit(): void {
-    this.dials = 'visible';
+    this.shown = true;
   }
 
   dissolved(event:any) {
@@ -33,7 +29,7 @@ export class PhoneComponent implements OnInit {
     if (event.toState === 'void') {
       this.library.shuffle();
     }
-    this.dials = 'visible';
+    this.shown = true;
   }
 
 }

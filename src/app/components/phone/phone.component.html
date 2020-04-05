@@ -226,7 +226,7 @@
    id="path78"
    d="m 66.509898,58.645259 c 0,0.646812 -0.146108,1.987347 -0.354064,2.562413 -0.753842,2.084624 -2.292278,2.46137 -4.636982,2.46137 -1.283606,0 -3.084922,-0.577435 -4.013127,-1.323579 -1.235029,-0.992787 -1.829066,-1.992294 -1.829066,-3.700204 0,-0.986688 1.049494,-2.893851 1.510441,-3.69061 0.936589,-1.618917 2.457869,-1.365909 4.462697,-1.365909 1.035517,0 1.741275,0.716151 2.563965,1.220215 1.553988,0.952131 2.296136,1.880305 2.296136,3.836304 z"
    style="opacity:1;vector-effect:none;fill:#5a3d37;fill-opacity:1;stroke:none;stroke-width:1.77408934;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
-<g @dissolve *ngIf="dials === 'visible'" (@dissolve.done)="dissolved($event)">   
+<g @dissolve *ngIf="shown" (@dissolve.done)="dissolved($event)">   
    <image [attr.href]="library.dial[0].icon" (click)="router.navigate(['listen', library.dial[0].id])"
       y="43.239136"
       x="68.677246"
@@ -314,7 +314,7 @@
       style="fill:#e9e6dd;fill-opacity:1" />
 </g>
 
-<circle (click)="dials = 'invisible'"
+<circle (click)="shown = false"
    r="9.3626175"
    cy="41.587063"
    cx="55.174122"
