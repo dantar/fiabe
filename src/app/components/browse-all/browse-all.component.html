@@ -17,7 +17,7 @@
 <div class="fullpage" *ngIf="library">
 
     <div class="browse-all-list" @stream>
-        <div *ngFor="let favola of favole" class="browse-all-item">
+        <div *ngFor="let favola of favole" class="browse-all-item fall-in-item">
             <img [src]="favola.icon" (click)="router.navigate(['listen', favola.id])" />
         </div>
     </div>
