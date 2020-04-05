@@ -1,34 +1,5 @@
 <router-outlet></router-outlet>
 
-<style>
-.panel-menu-list {
-   position: fixed; 
-   top: 10px; 
-   left: 10px;
-   display: flex;
-}
-
-@media screen and (orientation:portrait) {
-   .panel-menu-list {
-      flex-direction: row;
-   }
-   .panel-menu-item {
-      height: 50px;
-      padding-right: 10px;
-   }
-}
-@media screen and (orientation:landscape) {
-   .panel-menu-list {
-      flex-direction: column;
-   }
-   .panel-menu-item {
-      width: 50px;
-      padding-bottom: 10px;
-   }
-}
-
-</style>
-
 <div class="panel-menu-list">
 
    <svg class="panel-menu-item" viewBox="0 0 100 100" (click)="router.navigate(['phone'])">

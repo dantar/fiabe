@@ -1,13 +1,5 @@
 <style>
-    h1 {
-        padding-left: 100px;
-        padding-right: 100px;
-        font-size: 3em;
-    }
     p {
-        padding-left: 100px;
-        padding-right: 100px;
-        font-size: 2em;
         color: #808080;
     }
     .credit {
@@ -15,20 +7,19 @@
         color: black;
     }
 </style>
-
 <div class="fullpage" @stream>
 
     <h1>Rodari al telefono</h1>
 
-    <p class="fall-in-item">Progetto a cura di <span class="credit">Giulia Solano</span>.</p>
-    <p class="fall-in-item">Progetto grafico e illustrazioni a cura di <span class="credit">Julia Caracciolo</span>.</p>
+    <p class="fall-in-item">Progetto a cura di <span class="credit">Giulia Solano</span></p>
+    <p class="fall-in-item">Progetto grafico e illustrazioni a cura di <span class="credit">Hangar srls</span></p>
     <p class="fall-in-item">
         Voci al telefono: 
         <ng-container  *ngFor="let reader of readers; let last=last">
-            <span class="credit">{{reader}}</span>{{last ? '.' : ', '}}
+            <span class="credit">{{reader}}</span>{{last ? '' : ', '}}
         </ng-container>
     </p>
     <p class="fall-in-item">Con il supporto di <span class="credit">Hyperborea srl</span> 
-        e la collaborazione di <span class="credit">Daniele Tarini</span>, <span class="credit">Ivan Ricotti</span>, <span class="credit">Cristina Toffi</span>.
+        e la collaborazione di <span class="credit">Daniele Tarini</span>, <span class="credit">Ivan Ricotti</span>, <span class="credit">Cristina Toffi</span>
     </p>
 </div>

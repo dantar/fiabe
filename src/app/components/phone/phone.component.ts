@@ -25,7 +25,6 @@ export class PhoneComponent implements OnInit {
   }
 
   dissolved(event:any) {
-    console.log(event);
     if (event.toState === 'void') {
       this.library.shuffle();
     }
