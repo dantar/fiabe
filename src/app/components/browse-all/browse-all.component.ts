@@ -26,9 +26,6 @@ export class BrowseAllComponent implements OnInit {
 
   ngOnInit(): void {
     this.favole = JSON.parse(JSON.stringify(this.library.favole));
-    for (let index = 0; index < 10; index++) {
-      this.favole = this.favole.concat(JSON.parse(JSON.stringify(this.library.favole)));
-    }
   }
 
 }
