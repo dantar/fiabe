@@ -9,8 +9,8 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
   styleUrls: ['./phone.component.scss'],
   animations: [
     trigger('dissolve', [
-      transition(':enter', [style({opacity: 0}), animate('500ms', style({opacity: 1}))]),
-      transition(':leave', [style({opacity: 1}), animate('200ms', style({opacity: 0}))]),
+      transition(':enter', [style({opacity: 0}), animate('1500ms', style({opacity: 1}))]),
+      transition(':leave', [style({opacity: 1}), animate('1000ms', style({opacity: 0}))]),
     ]),
   ]
 })

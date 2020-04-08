@@ -4,8 +4,8 @@
 .audio-player-box {
     position: fixed;
     bottom: 10px;
-    left: 3%;
-    width: 94%;
+    left: 70px;
+    right: 70px;
     background-color: white;
     border: 1px solid black;
 }
@@ -20,11 +20,19 @@
 
 .panel-menu-list {
     position: fixed; 
-    top: 10px; 
-    left: 10px;
     display: flex;
 }
- 
+
+.top-left-menu {
+    top: 10px; 
+    left: 10px;
+} 
+
+.bottom-left-menu {
+    bottom: 10px; 
+    left: 10px;
+} 
+
 .browse-all-list {
     padding:0; margin: 0;
     display: flex;
