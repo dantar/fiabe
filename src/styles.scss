@@ -74,11 +74,11 @@
 }
 
 @media screen and (orientation:portrait) {
-    .panel-menu-list {
+    .panel-menu-list.top-right-menu {
        flex-direction: row-reverse;
     }
     .panel-menu-item {
-       height: 50px;
+       height: 40px;
        padding-right: 10px;
     }
     .fullpage {
@@ -92,7 +92,7 @@
        flex-direction: column;
     }
     .panel-menu-item {
-       width: 50px;
+       width: 40px;
        padding-bottom: 10px;
     }
     .fullpage {
