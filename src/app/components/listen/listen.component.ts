@@ -12,7 +12,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
     trigger('dissolve', [
       state('invisible', style({opacity: 0})),
       state('visible', style({opacity: 1})),
-      transition(':enter', [style({opacity: 0}), animate('2s', style({opacity: 1}))]),
+      transition(':enter', [style({opacity: 0}), animate('3s', style({opacity: 0})), animate('17s', style({opacity: 1}))]),
       transition('invisible=>visible', [animate('100s')]),
       transition('visible=>invisible', [animate('10s')]),
     ]),

@@ -1,4 +1,8 @@
-<div style="margin:0; padding:0; overflow:hidden;">
+<div style="margin:0; padding:0; overflow:hidden; ">
+
+   <div class="splash-title">
+      <div>{{favola.titolo}}</div>
+   </div>
 
     <svg @dissolve
        xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -35,6 +39,7 @@
       width="15" />
     </svg>
 </div>
+
 
 <div *ngIf="favola" class="audio-player-box">
     <mat-basic-audio-player [audioUrl]="favola.audio" [title]="msbapTitle" [autoPlay]="true" muted="muted"

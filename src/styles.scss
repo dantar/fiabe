@@ -52,9 +52,30 @@
     height: 150px;
 }
 
- @media screen and (orientation:portrait) {
+.page-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.splash-title {
+    height: 100%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    div {
+        position: fixed; 
+        top: 70px;
+        text-align: center;
+    }
+}
+
+@media screen and (orientation:portrait) {
     .panel-menu-list {
-       flex-direction: row;
+       flex-direction: row-reverse;
     }
     .panel-menu-item {
        height: 50px;
@@ -65,8 +86,8 @@
         padding-right: 10px;
         padding-left: 10px;
     }
- }
- @media screen and (orientation:landscape) {
+}
+@media screen and (orientation:landscape) {
     .panel-menu-list {
        flex-direction: column;
     }
@@ -79,5 +100,5 @@
         padding-right: 70px;
         padding-left: 70px;
     }
- }
+}
  
