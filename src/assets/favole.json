@@ -8,8 +8,8 @@
     { "id": "delre",
       "titolo": "A toccare il naso del re", 
       "audio": "assets/a toccare il naso del re.mp3",
-      "icon": "assets/telefono-black.png",
-      "image": "assets/telefono-black.png"
+      "icon": "assets/a toccare il naso del re-icon.jpg",
+      "image": "assets/a toccare il naso del re.jpg"
     },
     { "id": "brif",
       "titolo": "Brif bruf braf", 
@@ -20,8 +20,8 @@
     { "id": "filobus",
       "titolo": "Il filobus 75", 
       "audio": "assets/il filobus 75.mp3",
-      "icon": "assets/telefono-black.png",
-      "image": "assets/telefono-black.png"
+      "icon": "assets/il filobus 75-icon.jpg",
+      "image": "assets/il filobus 75.jpg"
     },
     { "id": "scappa",
       "titolo": "Il naso che scappa", 
