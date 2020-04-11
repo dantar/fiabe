@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
+@font-face {
+    font-family: 'Olivetti-Valentine';
+    src: url(/assets/Olivetti-Valentine.ttf) format("truetype");
+    font-weight:300;
+}
+
 .audio-player-box {
     position: fixed;
     bottom: 10px;
@@ -95,6 +101,7 @@
     div {
         position: fixed; 
         text-align: center;
+        font-family: 'Olivetti-Valentine', sans-serif;
     }
 }
 
@@ -105,7 +112,7 @@
     top: 0;
     left: 0;
     /* The image used */
-    background-image: url("assets/bg.jpg");
+    background-image: url("assets/sfondo-1600.jpg");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
