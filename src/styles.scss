@@ -69,14 +69,13 @@
 
 .splash-title {
     height: 100%;
-    padding-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 4em;
+    opacity: 0;
     div {
         position: fixed; 
-        top: 70px;
         text-align: center;
     }
 }
@@ -110,6 +109,11 @@
         padding-right: 10px;
         padding-left: 10px;
     }
+    .splash-title {
+        div {
+            top: 70px;
+        }
+    }
 }
 @media screen and (orientation:landscape) {
     .panel-menu-list {
@@ -123,6 +127,13 @@
         padding-top: 10px;
         padding-right: 70px;
         padding-left: 70px;
+    }
+    .splash-title {
+        div {
+            top: 20px;
+            left: 70px;
+            right: 70px;
+        }
     }
 }
  
