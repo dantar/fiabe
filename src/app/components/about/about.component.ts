@@ -18,6 +18,8 @@ export class AboutComponent implements OnInit {
 
   readers: string[]
 
+  mailto = 'info@rodarialtelefono.it';
+
   ngOnInit(): void {
     this.readers = [
       'Matteo Ambrosetti', 
