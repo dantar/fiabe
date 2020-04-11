@@ -2,8 +2,8 @@
     { "id": "apollonia",
       "titolo": "L'Apollonia della marmellata", 
       "audio": "assets/l apollonia della marmellata.mp3",
-      "icon": "assets/telefono-black.png",
-      "image": "assets/telefono-black.png"
+      "icon": "assets/l apollonia della marmellata-icon.jpg",
+      "image": "assets/l apollonia della marmellata.jpg"
     },
     { "id": "delre",
       "titolo": "A toccare il naso del re", 

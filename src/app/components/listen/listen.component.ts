@@ -13,7 +13,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
       transition(':enter', [style({opacity: 0}), animate('3s', style({opacity: 0})), animate('17s', style({opacity: 1}))]),
     ]),
     trigger('dissolve', [
-      transition(':enter', [style({opacity: 1}), animate('3s', style({opacity: 1})), animate('10s', style({opacity: 0}))]),
+      transition(':enter', [style({opacity: 1}), animate('8s', style({opacity: 1})), animate('10s', style({opacity: 0}))]),
     ]),
   ]
 })
