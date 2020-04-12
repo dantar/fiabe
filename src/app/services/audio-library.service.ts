@@ -1,24 +1,27 @@
 import { Injectable } from '@angular/core';
 import { Favola } from '../models/favola.model';
 import { GamesCommonService } from './games-common.service';
-import favole from 'src/assets/favole.json';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AudioLibraryService {
 
-  favole: Favola[] = favole;
+  favole: Favola[];
 
   dial: Favola[];
   more: Favola[] = [];
 
   fmap: {[id:string]: Favola};
 
-  constructor(private games: GamesCommonService) {
+  constructor(private http: HttpClient, private games: GamesCommonService) {
     this.fmap = {};
-    this.favole.forEach(f=>this.fmap[f.id] = f);
-    this.shuffle();
+    this.http.get<Favola[]>('assets/favole.json').subscribe(favole => {
+      this.favole = favole;
+      this.favole.forEach(f=>this.fmap[f.id] = f);
+      this.shuffle();
+    });
   }
 
   shuffle() {

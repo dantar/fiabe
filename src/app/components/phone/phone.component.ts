@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AudioLibraryService } from 'src/app/services/audio-library.service';
 import { trigger, state, style, transition, animate } from '@angular/animations';
-import countdown from 'src/assets/countdown.json';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-phone',
@@ -22,12 +22,14 @@ export class PhoneComponent implements OnInit {
   days: number;
   next: number;
 
-  constructor(public router: Router, public library: AudioLibraryService) { }
+  constructor(private http: HttpClient, public router: Router, public library: AudioLibraryService) { }
 
   ngOnInit(): void {
     this.shown = true;
-    this.days = this._numdays(new Date(countdown.data)) - this._numdays(new Date());
-    this.next = countdown.favole;
+    this.http.get('assets/countdown.json').subscribe((countdown:any) => {
+      this.days = this._numdays(new Date(countdown.data)) - this._numdays(new Date());
+      this.next = countdown.favole;
+    });
   }
 
   _numdays(d: Date): number {

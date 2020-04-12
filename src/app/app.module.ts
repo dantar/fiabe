@@ -14,6 +14,7 @@ import { AudioLibraryService } from './services/audio-library.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowseAllComponent } from './components/browse-all/browse-all.component';
 import { AboutComponent } from './components/about/about.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -28,12 +29,14 @@ import { AboutComponent } from './components/about/about.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgxAudioPlayerModule
+    NgxAudioPlayerModule,
+    HttpClientModule
   ],
   providers: [
     GamesCommonService,
     AudioLibraryService,
-    {provide: LocationStrategy, useClass: HashLocationStrategy},    
+    {provide: LocationStrategy, useClass: HashLocationStrategy}, 
+    HttpClient   
   ],
   bootstrap: [AppComponent]
 })

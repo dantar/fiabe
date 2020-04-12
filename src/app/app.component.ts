@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import { AudioLibraryService } from './services/audio-library.service';
 
 declare let gtag: Function;
 
@@ -15,7 +16,7 @@ export class AppComponent implements OnInit {
   fullscreenEnabled: boolean;
   isFullscreen: boolean;
 
-  constructor(public router: Router) {
+  constructor(public router: Router, public library: AudioLibraryService) {
     this.router.events.subscribe(event => {
       if(event instanceof NavigationEnd){
         gtag('config', 'G-KYH92BHQJ6', {'page_path': event.urlAfterRedirects});
