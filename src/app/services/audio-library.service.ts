@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Favola } from '../models/favola.model';
 import { GamesCommonService } from './games-common.service';
-import favole from '../../assets/favole.json';
+import favole from 'src/assets/favole.json';
 
 @Injectable({
   providedIn: 'root'
