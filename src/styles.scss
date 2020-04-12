@@ -58,6 +58,19 @@
     height: 150px;
 }
 
+.table-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    img {
+        flex: 0 0 16%;
+        width: 16%;
+        padding: 3px;
+    }
+}
+
 .aboutpage {
     padding: 20px;
     h1 {
@@ -86,7 +99,7 @@
 }
 
 .rodari {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     p {
         color: #420910;
         font-style: italic;

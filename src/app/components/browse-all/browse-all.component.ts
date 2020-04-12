@@ -23,9 +23,14 @@ export class BrowseAllComponent implements OnInit {
     ) { }
 
   favole: Favola[];
+  rows: Favola[][];
 
   ngOnInit(): void {
     this.favole = JSON.parse(JSON.stringify(this.library.favole));
+    this.rows = [];
+    for (let index = 0; index < this.favole.length; index=index+5) {
+      this.rows.push(this.favole.slice(index, index + 5 ));
+    }
   }
 
 }

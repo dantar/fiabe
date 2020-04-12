@@ -25,8 +25,9 @@
         ascoltare le sue storie. Sfido: alcune sono proprio belline.</p>
     </div>
 
-    <div *ngFor="let favola of favole" class="browse-all-item fall-in-item">
-        <img [src]="favola.icon" (click)="router.navigate(['listen', favola.id])" />
+    <div class="table-grid" *ngFor="let row of rows">
+        <img *ngFor="let favola of row" class="fall-in-item" [src]="favola.icon" (click)="router.navigate(['listen', favola.id])" />
     </div>
-
+    
 </div>
+
