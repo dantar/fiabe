@@ -1,62 +1,72 @@
 [
-    { "id": "apollonia",
-      "titolo": "L'Apollonia della marmellata", 
-      "audio": "assets/l apollonia della marmellata.mp3",
-      "icon": "assets/l apollonia della marmellata-icon.jpg",
-      "image": "assets/l apollonia della marmellata.jpg"
-    },
-    { "id": "delre",
-      "titolo": "A toccare il naso del re", 
-      "audio": "assets/a toccare il naso del re.mp3",
-      "icon": "assets/a toccare il naso del re-icon.jpg",
-      "image": "assets/a toccare il naso del re.jpg"
-    },
-    { "id": "brif",
-      "titolo": "Brif bruf braf", 
-      "audio": "assets/brif bruf braf.mp3",
-      "icon": "assets/telefono-black.png",
-      "image": "assets/telefono-black.png"
-    },
-    { "id": "filobus",
-      "titolo": "Il filobus 75", 
-      "audio": "assets/il filobus 75.mp3",
-      "icon": "assets/il filobus 75-icon.jpg",
-      "image": "assets/il filobus 75.jpg"
-    },
-    { "id": "scappa",
-      "titolo": "Il naso che scappa", 
-      "audio": "assets/il naso che scappa.mp3",
-      "icon": "assets/telefono-black.png",
-      "image": "assets/telefono-black.png"
-    },
-    { "id": "cucina",
-      "titolo": "Cucina spaziale", 
-      "audio": "assets/cucina-spaziale.mp3",
-      "icon": "assets/telefono-black.png",
-      "image": "assets/telefono-black.png"
-    },
-    { "id": "palazzo",
-      "titolo": "Il palazzo di gelato", 
-      "audio": "assets/il palazzo di gelato.mp3",
-      "icon": "assets/il palazzo di gelato-icon.jpg",
-      "image": "assets/il palazzo di gelato.jpg"
-    },
-    { "id": "giacomo",
-      "titolo": "Giacomo di cristallo", 
-      "audio": "assets/giacomo di cristallo.mp3",
-      "icon": "assets/giacomo di cristallo-icon.jpg",
-      "image": "assets/giacomo di cristallo.jpg"
-    },
-    { "id": "topo",
-      "titolo": "Il topo che mangiava i gatti", 
-      "audio": "assets/il topo che mangiava i gatti.mp3",
-      "icon": "assets/il topo che mangiava i gatti-icon.jpg",
-      "image": "assets/il topo che mangiava i gatti.jpg"
-    },
-    { "id": "pioggia",
-      "titolo": "La famosa pioggia di Piombino", 
-      "audio": "assets/la famosa pioggia di piombino.mp3",
-      "icon": "assets/la famosa pioggia di piombino-icon.jpg",
-      "image": "assets/la famosa pioggia di piombino.jpg"
-    }
-  ]
+  {
+    "id": "apollonia",
+    "titolo": "L'Apollonia della marmellata",
+    "audio": "assets/l_apollonia_della_marmellata.mp3",
+    "icon": "assets/l_apollonia_della_marmellata-icon.jpg",
+    "image": "assets/l_apollonia_della_marmellata.jpg"
+  },
+  {
+    "id": "delre",
+    "titolo": "A toccare il naso del re",
+    "audio": "assets/a_toccare_il_naso_del_re.mp3",
+    "icon": "assets/a_toccare_il_naso_del_re-icon.jpg",
+    "image": "assets/a_toccare_il_naso_del_re.jpg"
+  },
+  {
+    "id": "brif",
+    "titolo": "Brif bruf braf",
+    "audio": "assets/brif_bruf_braf.mp3",
+    "icon": "assets/brif_bruf_braf-icon.jpg",
+    "image": "assets/brif_bruf_braf.jpg"
+  },
+  {
+    "id": "filobus",
+    "titolo": "Il filobus 75",
+    "audio": "assets/il_filobus_75.mp3",
+    "icon": "assets/il_filobus_75-icon.jpg",
+    "image": "assets/il_filobus_75.jpg"
+  },
+  {
+    "id": "scappa",
+    "titolo": "Il naso che scappa",
+    "audio": "assets/il_naso_che_scappa.mp3",
+    "icon": "assets/il_naso_che_scappa-icon.jpg",
+    "image": "assets/il_naso_che_scappa.jpg"
+  },
+  {
+    "id": "paese",
+    "titolo": "Il paese senza punta",
+    "audio": "assets/il_paese_senza_punta.mp3",
+    "icon": "assets/il_paese_senza_punta-icon.jpg",
+    "image": "assets/il_paese_senza_punta-icon.jpg"
+  },
+  {
+    "id": "palazzo",
+    "titolo": "Il palazzo di gelato",
+    "audio": "assets/il_palazzo_di_gelato.mp3",
+    "icon": "assets/il_palazzo_di_gelato-icon.jpg",
+    "image": "assets/il_palazzo_di_gelato.jpg"
+  },
+  {
+    "id": "giacomo",
+    "titolo": "Giacomo di cristallo",
+    "audio": "assets/giacomo_di_cristallo.mp3",
+    "icon": "assets/giacomo_di_cristallo-icon.jpg",
+    "image": "assets/giacomo_di_cristallo.jpg"
+  },
+  {
+    "id": "topo",
+    "titolo": "Il topo che mangiava i gatti",
+    "audio": "assets/il_topo_che_mangiava_i_gatti.mp3",
+    "icon": "assets/il_topo_che_mangiava_i_gatti-icon.jpg",
+    "image": "assets/il_topo_che_mangiava_i_gatti.jpg"
+  },
+  {
+    "id": "pioggia",
+    "titolo": "La famosa pioggia di Piombino",
+    "audio": "assets/la_famosa_pioggia_di_piombino.mp3",
+    "icon": "assets/la_famosa_pioggia_di_piombino-icon.jpg",
+    "image": "assets/la_famosa_pioggia_di_piombino.jpg"
+  }
+]
