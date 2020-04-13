@@ -97,6 +97,7 @@
 
 .aboutpage {
     padding: 20px;
+    margin-bottom: 50px;
     background: rgba(255, 255, 255, 0.3);
     font-family: 'Garamond-Regular';
     font-weight: 500;
@@ -106,7 +107,7 @@
         padding-top: 0;
         color: #420910;
         font-family: 'Little-Days';
-        font-size: 3em;
+        font-size: 2.5em;
     }
     h2 {
         color: #420910;
@@ -134,7 +135,7 @@
     background: rgba(255, 255, 255, 0.3);
     font-family: 'Little-Days';
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.4em;
     p {
         color: #420910;
         font-style: italic;
@@ -201,6 +202,9 @@
             padding-top: 70px;
         }
     }
+    .footer {
+        height: 100px;
+    }
 }
 @media screen and (orientation:landscape) {
     .panel-menu-list {
@@ -214,6 +218,7 @@
         padding-top: 10px;
         padding-right: 70px;
         padding-left: 70px;
+        padding-bottom: 10px;
     }
     .splash-title {
         div {

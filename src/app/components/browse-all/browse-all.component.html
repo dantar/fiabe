@@ -28,6 +28,8 @@
     <div class="table-grid" *ngFor="let row of rows">
         <img *ngFor="let favola of row" class="fall-in-item" [src]="favola.icon" (click)="router.navigate(['listen', favola.id])" />
     </div>
-    
+
+    <div class="footer">&nbsp;</div>
+
 </div>
 
