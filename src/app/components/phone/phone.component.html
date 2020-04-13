@@ -129,23 +129,53 @@
    style="fill:#fb02c7;fill-opacity:0;stroke-width:0.07988014"
    d="m 56.388512,67.490354 c 0.695788,-0.08696 3.044234,-0.792189 3.826013,-1.148936 1.159575,-0.529144 2.298275,-1.476808 3.256067,-2.709803 1.158252,-1.491054 1.589471,-2.562364 1.816092,-4.511853 0.352517,-3.032513 -0.659969,-6.227184 -2.63494,-8.313948 -1.040376,-1.099268 -2.15985,-1.775366 -3.716182,-2.244362 -2.266205,-0.682913 -4.285157,-0.734971 -6.640681,-0.171227 -2.580556,0.617601 -4.255887,1.447277 -5.508198,2.72783 -1.455508,1.488336 -2.07259,2.767851 -2.435953,5.050951 -0.275409,1.730452 -0.156975,3.074469 0.41534,4.713332 0.767647,2.198232 1.872335,3.823004 3.279995,4.824223 1.205463,0.857403 3.273072,1.608979 4.898104,1.78046 0.911897,0.09623 2.68733,0.09795 3.444343,0.0034 z"
    id="path5715" />
-<text *ngIf="days"
-   id="countdown"
-   y="88.723991"
-   x="26.943748"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.61681604px;line-height:1.25;font-family:'Olivetti-Valentine';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#fbf2c7;fill-opacity:1;stroke:none;stroke-width:0.27126119"
-   xml:space="preserve"><tspan
-     style="fill:#fbf2c7;fill-opacity:1;stroke-width:0.27126119"
-     y="88.723991"
-     x="26.943748"
-     id="tspan113">fra {{days}} giorni {{next}} nuove favole</tspan></text>
-<image
-   xlink:href="assets/rodari.png"
-   y="2.7563615"
-   x="16.416883"
-   id="image71"
-   preserveAspectRatio="none"
-   height="13.494128"
-   width="67.470634" />
+<g id="upcoming" *ngIf="days > 0">
+  <rect
+     style="opacity:1;vector-effect:none;fill:#fbf2c7;fill-opacity:1;stroke:none;stroke-width:10.90010929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect872"
+     width="55.287209"
+     height="2.9313626"
+     x="25.323158"
+     y="87.468384"
+     ry="1.3315015"
+     transform="rotate(-1.2145867)" />
+  <text
+     id="countdown"
+     y="91.138374"
+     x="24.629805"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53915071px;line-height:1.25;font-family:Dymo;-inkscape-font-specification:'Dymo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#51291c;fill-opacity:1;stroke:none;stroke-width:0.41543809"
+     xml:space="preserve"
+     transform="rotate(-1.499336)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53915071px;font-family:Dymo;-inkscape-font-specification:'Dymo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#51291c;fill-opacity:1;stroke-width:0.41543809"
+       y="91.138374"
+       x="24.629805"
+       id="tspan113">fra-{{days}}-giorn{{plural}}-{{next}}-nuove-favole!</tspan></text>
+</g>
+
+<g
+id="titolo">
+<text
+  id="text879"
+  y="11.460823"
+  x="53.234097"
+  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.20076656px;line-height:1.25;font-family:'Little-Days';-inkscape-font-specification:'Little-Days, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#fcf1c5;fill-opacity:1;stroke:#fdf4c9;stroke-width:1.01593351;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+  xml:space="preserve"><tspan
+    style="fill:#fcf1c5;fill-opacity:1;stroke:#fdf4c9;stroke-width:1.01593351;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    y="11.460823"
+    x="53.234097"
+    id="tspan877">Rodari al telefono</tspan></text>
+<text
+  xml:space="preserve"
+  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.20076656px;line-height:1.25;font-family:'Little-Days';-inkscape-font-specification:'Little-Days, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#340806;fill-opacity:1;stroke:#360906;stroke-width:0.20501916;stroke-opacity:1"
+  x="53.234097"
+  y="11.460823"
+  id="text875"><tspan
+    id="tspan873"
+    x="53.234097"
+    y="11.460823"
+    style="fill:#340806;fill-opacity:1;stroke:#360906;stroke-width:0.20501916;stroke-opacity:1">Rodari al telefono</tspan></text>
+</g>
+
+
 </svg>
 </div>
