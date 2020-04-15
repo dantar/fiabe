@@ -96,6 +96,21 @@
     }
 }
 
+.social-share-buttons a {
+    display: inline-block;
+    background: url(/assets/social-icons.svg) no-repeat;
+    background-size: 570% 340%;
+    width: 46px;
+    height: 50px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.facebook-button {
+    background-position: 0 -56px;
+}
+
 .aboutpage {
     padding: 20px;
     margin-bottom: 50px;
