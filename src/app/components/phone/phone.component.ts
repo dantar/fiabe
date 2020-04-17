@@ -21,6 +21,7 @@ export class PhoneComponent implements OnInit {
 
   days: number;
   next: number;
+  plural: string;
 
   constructor(private http: HttpClient, public router: Router, public library: AudioLibraryService) { }
 
@@ -29,6 +30,7 @@ export class PhoneComponent implements OnInit {
     this.http.get('assets/countdown.json').subscribe((countdown:any) => {
       this.days = this._numdays(new Date(countdown.data)) - this._numdays(new Date());
       this.next = countdown.favole;
+      this.plural = this.days > 1? 'i':'o';
     });
   }
 

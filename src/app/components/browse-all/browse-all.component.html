@@ -1,15 +1,15 @@
 <div class="fullpage browse-all-list" *ngIf="library" @stream>
 
     <div class="rodari">
-        <p>C'era una volta...</p>
-        <p>... il ragionier Bianchi, di Varese. Era un
+        <p class="fall-in-item">C'era una volta...</p>
+        <p class="fall-in-item">... il ragionier Bianchi, di Varese. Era un
         rappresentante di commercio e sei giorni su sette girava
         l'Italia intera, a Est, a Ovest, a Sud, a Nord e in mezzo,
         vendendo medicinali. La domenica tornava a casa sua, e
         il lunedì mattina ripartiva. Ma prima che partisse la sua
         bambina gli diceva: - Mi raccomando, papà: tutte le sere
         una storia.</p>
-        <p>Perché quella bambina non poteva dormire senza una
+        <p class="fall-in-item">Perché quella bambina non poteva dormire senza una
         storia, e la mamma, quelle che sapeva, gliele aveva già
         raccontate tutte anche tre volte. Così ogni sera, dovunque
         si trovasse, alle nove in punto il ragionier Bianchi
@@ -26,8 +26,10 @@
     </div>
 
     <div class="table-grid" *ngFor="let row of rows">
-        <img *ngFor="let favola of row" class="fall-in-item" [src]="favola.icon" (click)="router.navigate(['listen', favola.id])" />
+        <img *ngFor="let favola of row" class="fall-in-item" [src]="favola.icon" (click)="router.navigate(['listen', favola.id])" style="cursor: pointer;" />
     </div>
-    
+
+    <div class="footer">&nbsp;</div>
+
 </div>
 

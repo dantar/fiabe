@@ -1,10 +1,11 @@
+<img style="display: none" src="assets/screenshot.jpg" />
 <div class="bg" *ngIf="library.favole">
    <router-outlet></router-outlet>
 </div>
 
 <div class="panel-menu-list top-right-menu">
 
-   <svg class="panel-menu-item" viewBox="0 0 100 100" (click)="router.navigate(['about'])">
+   <svg class="panel-menu-item" viewBox="0 0 100 100" (click)="router.navigate(['about'])" style="cursor: pointer;">
    <g id="info">
       <circle
          style="opacity:1;vector-effect:none;fill:#fbf2c9;fill-opacity:1;stroke:none;stroke-width:13.91966343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -18,6 +19,23 @@
    </g>
    </svg>
 
+   <svg class="panel-menu-item" viewBox="0 0 100 100" (click)="router.navigate(['about'])" style="cursor: pointer;">
+      <a href="https://facebook.com/sharer.php?u=http%3A%2F%2Frodarialtelefono.it">
+         <g
+            id="facebook">
+            <circle
+               style="opacity:1;vector-effect:none;fill:#fbf2c9;fill-opacity:1;stroke:none;stroke-width:13.91966343;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+               id="circle839"
+               cx="50"
+               cy="50"
+               r="50" />
+            <path
+               style="fill:#420910;fill-opacity:1;stroke-width:0.40563241"
+               d="m 55.562722,77.316529 v -17.63356 l 5.56488,-0.11286 5.56488,-0.11285 0.70133,-5.27323 c 0.38573,-2.90027 0.71082,-5.77519 0.72242,-6.38871 l 0.0211,-1.11549 h -6.2873 -6.2873 l 0.002,-4.56336 c 0.002,-5.27714 0.39779,-7.07749 1.85409,-8.447 0.96454,-0.90705 1.44807,-0.99981 6.18651,-1.18677 l 5.14002,-0.20282 v -5.67885 -5.67885 l -3.04224,-0.33039 c -4.74929,-0.51578 -10.76411,-0.10231 -13.48812,0.9272 -3.74952,1.41709 -6.08359,3.5423 -7.88027,7.17513 -1.66013,3.41718 -1.61605,6.81308 -1.68346,10.55971 l -0.13363,7.426 h -5.65693 -5.65694 l 0.11171,6.38872 0.1117,6.38871 5.57745,0.11285 5.57744,0.11286 v 17.43074 17.43075 h -0.9687 c -0.53279,0 -2.58047,-0.46707 -4.5504,-1.03794 C 12.5452,86.401549 -1.2876502,59.663479 6.9141798,35.230739 9.1487898,28.573999 12.93907,22.670579 18.4449,17.271479 c 5.7705,-5.65864 12.491482,-9.41733 20.752692,-11.60589 4.49424,-1.19061 13.63303,-1.49135 18.66493,-0.61422 18.53222,3.23039 32.96641,17.30529 36.86733,35.94961 0.9665,4.61933 0.96617,13.56628 -8.1e-4,18.05064 -2.97797,13.81333 -11.78975,25.18311 -24.36115,31.43325 -4.58242,2.27824 -11.35898,4.46522 -13.83592,4.46522 h -0.96967 z"
+               id="path860" />
+         </g>
+      </a>
+   </svg>
    <svg *ngIf="fullscreenEnabled" class="panel-menu-item" viewBox="0 0 100 100" (click)="toggleFullScreen($event)">
 
       <g *ngIf="isFullscreen" id="collapse">
@@ -48,7 +66,7 @@
 
 <div class="panel-menu-list top-left-menu">
 
-   <svg class="panel-menu-item" viewBox="0 0 100 100" (click)="router.navigate(['phone'])">
+   <svg class="panel-menu-item" viewBox="0 0 100 100" (click)="router.navigate(['phone'])" style="cursor: pointer;">
       <g id="dials">
          <circle
             r="50"
@@ -62,7 +80,7 @@
       </g>
    </svg>
 
-   <svg class="panel-menu-item" viewBox="0 0 100 100" (click)="router.navigate(['browse-all'])">
+   <svg class="panel-menu-item" viewBox="0 0 100 100" (click)="router.navigate(['browse-all'])" style="cursor: pointer;">
       <g id="browse">
          <path
             style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#fbf2c9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.87862587;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"

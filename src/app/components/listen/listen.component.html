@@ -35,14 +35,14 @@
       width="15" />
     </svg>
 
-   <div class="splash-title" @dissolve>
+   <div class="splash-title" @dissolve (click)="toggleProgress()" style="cursor: pointer;">
       <div>{{favola.titolo}}</div>
    </div>
 
 </div>
 
 
-<div *ngIf="favola" class="audio-player-box">
+<div *ngIf="favola" class="audio-player-box" [@clicktoappear]="progress">
     <mat-basic-audio-player [audioUrl]="favola.audio" [title]="msbapTitle" [autoPlay]="true" muted="muted"
         [displayTitle]="msbapDisplayTitle" [displayVolumeControls]="msaapDisplayVolumeControls"></mat-basic-audio-player>
 </div>

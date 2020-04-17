@@ -24,7 +24,6 @@ export class AboutComponent implements OnInit {
     this.readers = [
       'Matteo Ambrosetti', 
       'Davide Bartaletti', 
-      'Paolo Bonifati', 
       'Francesco Borsacchi', 
       'Ginevra Bruscino', 
       'Carla Buscemi', 

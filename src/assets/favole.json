@@ -39,7 +39,7 @@
     "titolo": "Il paese senza punta",
     "audio": "assets/il_paese_senza_punta.mp3",
     "icon": "assets/il_paese_senza_punta-icon.jpg",
-    "image": "assets/il_paese_senza_punta-icon.jpg"
+    "image": "assets/il_paese_senza_punta.jpg"
   },
   {
     "id": "palazzo",
@@ -68,21 +68,21 @@
     "audio": "assets/la_famosa_pioggia_di_piombino.mp3",
     "icon": "assets/la_famosa_pioggia_di_piombino-icon.jpg",
     "image": "assets/la_famosa_pioggia_di_piombino.jpg"
-  }
+  },
   {
     "id": "il_pozzo_di_cascina_piana",
     "titolo": "Il pozzo di Cascina Piana",
     "audio": "assets/il_pozzo_di_cascina_piana.mp3",
     "icon": "assets/il_pozzo_di_cascina_piana-icon.jpg",
     "image": "assets/il_pozzo_di_cascina_piana.jpg"
-  }
+  },
   {
     "id": "il_topo_dei_fumetti",
     "titolo": "Il topo dei fumetti",
     "audio": "assets/il_topo_dei_fumetti.mp3",
     "icon": "assets/il_topo_dei_fumetti-icon.jpg",
     "image": "assets/il_topo_dei_fumetti.jpg"
-  }
+  },
   {
     "id": "uno_e_sette",
     "titolo": "Uno e Sette",
