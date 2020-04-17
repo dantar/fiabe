@@ -69,4 +69,25 @@
     "icon": "assets/la_famosa_pioggia_di_piombino-icon.jpg",
     "image": "assets/la_famosa_pioggia_di_piombino.jpg"
   }
+  {
+    "id": "il_pozzo_di_cascina_piana",
+    "titolo": "Il pozzo di Cascina Piana",
+    "audio": "assets/il_pozzo_di_cascina_piana.mp3",
+    "icon": "assets/il_pozzo_di_cascina_piana-icon.jpg",
+    "image": "assets/il_pozzo_di_cascina_piana.jpg"
+  }
+  {
+    "id": "il_topo_dei_fumetti",
+    "titolo": "Il topo dei fumetti",
+    "audio": "assets/il_topo_dei_fumetti.mp3",
+    "icon": "assets/il_topo_dei_fumetti-icon.jpg",
+    "image": "assets/il_topo_dei_fumetti.jpg"
+  }
+  {
+    "id": "uno_e_sette",
+    "titolo": "Uno e Sette",
+    "audio": "assets/uno_e_sette.mp3",
+    "icon": "assets/uno_e_sette-icon.jpg",
+    "image": "assets/uno_e_sette.jpg"
+  }
 ]
