@@ -89,5 +89,12 @@
     "audio": "assets/uno_e_sette.mp3",
     "icon": "assets/uno_e_sette-icon.jpg",
     "image": "assets/uno_e_sette.jpg"
+  },
+  {
+    "id": "il_palazzo_da_rompere",
+    "titolo": "Il palazzo da rompere",
+    "audio": "assets/il_palazzo_da_rompere.mp3",
+    "icon": "assets/il_palazzo_da_rompere-icon.jpg",
+    "image": "assets/il_palazzo_da_rompere.jpg"
   }
 ]
