@@ -96,5 +96,12 @@
     "audio": "assets/il_palazzo_da_rompere.mp3",
     "icon": "assets/il_palazzo_da_rompere-icon.jpg",
     "image": "assets/il_palazzo_da_rompere.jpg"
+  },
+  {
+    "id": "la_passeggiata_di_un_distratto",
+    "titolo": "La passeggiata di un distratto",
+    "audio": "assets/la_passeggiata_di_un_distratto.mp3",
+    "icon": "assets/la_passeggiata_di_un_distratto-icon.jpg",
+    "image": "assets/la_passeggiata_di_un_distratto.jpg"
   }
 ]
