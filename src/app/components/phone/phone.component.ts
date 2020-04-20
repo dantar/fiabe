@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { AudioLibraryService } from 'src/app/services/audio-library.service';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { HttpClient } from '@angular/common/http';
+import { Countdown } from 'src/app/models/countdown.model';
 
 @Component({
   selector: 'app-phone',
@@ -27,10 +28,16 @@ export class PhoneComponent implements OnInit {
 
   ngOnInit(): void {
     this.shown = true;
-    this.http.get('assets/countdown.json').subscribe((countdown:any) => {
-      this.days = this._numdays(new Date(countdown.data)) - this._numdays(new Date());
-      this.next = countdown.favole;
-      this.plural = this.days > 1? 'i':'o';
+    this.http.get('assets/countdown.json').subscribe((countdowns: Countdown[]) => {
+      this.days = null;
+      countdowns.forEach(countdown => {
+        const d = this._numdays(new Date(countdown.data)) - this._numdays(new Date());
+        if (d >= 0 && this.days === null) {
+          this.days = d;
+          this.next = countdown.favole;
+          this.plural = this.days > 1? 'i':'o';
+        }
+      });
     });
   }
 

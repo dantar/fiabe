@@ -20,6 +20,8 @@ export class AppComponent implements OnInit {
     this.router.events.subscribe(event => {
       if(event instanceof NavigationEnd){
         gtag('config', 'G-KYH92BHQJ6', {'page_path': event.urlAfterRedirects});
+        gtag('set', 'page', event.urlAfterRedirects);
+        gtag('send', 'pageview');
       }
     })    
   }
