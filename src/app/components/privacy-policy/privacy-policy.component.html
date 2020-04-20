@@ -9,7 +9,7 @@
       internet <a href="/">www.rodarialtelefono.it</a> (di seguito: "Sito") o
       che usufruiscono dei servizi sullo stesso messi a disposizione.</p>
 
-    <p class="fall-in-item">L'informativa è resa esclusivamente per il Sito di Rodari Alt Telefono e non
+    <p class="fall-in-item">L'informativa è resa esclusivamente per il sito di <em>Rodari al telefono</em> e non
       anche per gli altri siti <em>web</em> eventualmente consultati dall'utente
       tramite i <em>link</em> presenti all'interno del Sito.</p>
 
@@ -93,7 +93,17 @@
     <p class="fall-in-item"><em>Consenso all'utilizzo dei cookie</em></p>
 
     <p class="fall-in-item">L'utilizzo di <em>cookie</em> di profilazione di terze parti
-      richiede il consenso dell'utente. </p>
+      richiede il consenso dell'utente. In questo momento 
+      <strong *ngIf="cookies.stated && cookies.accept">hai dato il tuo consenso</strong>
+      <strong *ngIf="cookies.stated && !cookies.accept">NON hai dato il tuo consenso</strong> 
+      <strong *ngIf="!cookies.stated">non hai ancora espresso il consenso</strong> 
+      all'utilizzo dei cookie. Puoi cambiare l'impostazione corrente qui di seguito:
+    </p>
+
+    <p style="padding-left: 10px;">
+      <span class="as-button" *ngIf="!cookies.stated || !cookies.accept" (click)="cookies.doAccept()">Dai il consenso all'utilizzo dei cookie</span>
+      <span class="as-button" *ngIf="!cookies.stated || cookies.accept" (click)="cookies.doDeny()">Nega il consenso all'utilizzo dei cookie</span>
+    </p>
 
     <p class="fall-in-item">Al momento dell'accesso a qualunque pagina del Sito, è presente un
       <em>banner</em> che contiene un'informativa sintetica sui

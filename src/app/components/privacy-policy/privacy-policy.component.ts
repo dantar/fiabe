@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AcceptCookieService } from 'src/app/services/accept-cookie.service';
 
 @Component({
   selector: 'app-privacy-policy',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrivacyPolicyComponent implements OnInit {
 
-  constructor() { }
+  constructor(public cookies: AcceptCookieService) { }
 
   mailto = 'info@rodarialtelefono.it';
 

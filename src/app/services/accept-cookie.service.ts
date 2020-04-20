@@ -20,7 +20,6 @@ export class AcceptCookieService {
     this.stated = true;
     localStorage.setItem('accept-cookies', 'true');
     localStorage.setItem('stated-cookies', 'true');
-    gtag('js', new Date());
   }
 
   doDeny() {
