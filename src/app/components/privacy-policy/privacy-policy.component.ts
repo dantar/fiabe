@@ -9,6 +9,8 @@ export class PrivacyPolicyComponent implements OnInit {
 
   constructor() { }
 
+  mailto = 'info@rodarialtelefono.it';
+
   ngOnInit(): void {
   }
 
