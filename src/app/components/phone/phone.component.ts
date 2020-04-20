@@ -29,10 +29,10 @@ export class PhoneComponent implements OnInit {
   ngOnInit(): void {
     this.shown = true;
     this.http.get('assets/countdown.json').subscribe((countdowns: Countdown[]) => {
-      this.days = null;
+      this.days = -1;
       countdowns.forEach(countdown => {
         const d = this._numdays(new Date(countdown.data)) - this._numdays(new Date());
-        if (d >= 0 && this.days === null) {
+        if (d >= 0 && this.days < 0) {
           this.days = d;
           this.next = countdown.favole;
           this.plural = this.days > 1? 'i':'o';

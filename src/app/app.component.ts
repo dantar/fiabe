@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { AudioLibraryService } from './services/audio-library.service';
+import { AcceptCookieService } from './services/accept-cookie.service';
 
 declare let gtag: Function;
 
@@ -16,12 +17,14 @@ export class AppComponent implements OnInit {
   fullscreenEnabled: boolean;
   isFullscreen: boolean;
 
-  constructor(public router: Router, public library: AudioLibraryService) {
+  constructor(public router: Router, public library: AudioLibraryService, public cookies: AcceptCookieService) {
     this.router.events.subscribe(event => {
       if(event instanceof NavigationEnd){
-        gtag('config', 'G-KYH92BHQJ6', {'page_path': event.urlAfterRedirects});
-        gtag('set', 'page', event.urlAfterRedirects);
-        gtag('send', 'pageview');
+        gtag('config', 'G-KYH92BHQJ6', {
+          'page_path': event.urlAfterRedirects,
+          'anonimize_ip': !this.cookies.accept
+        });
+        gtag('event', event.urlAfterRedirects.replace('/', ''), {'event_category': 'Navigation'});
       }
     })    
   }
