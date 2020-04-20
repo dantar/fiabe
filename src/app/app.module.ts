@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowseAllComponent } from './components/browse-all/browse-all.component';
 import { AboutComponent } from './components/about/about.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     PhoneComponent,
     ListenComponent,
     BrowseAllComponent,
-    AboutComponent
+    AboutComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,

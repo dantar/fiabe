@@ -6,14 +6,15 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.png">
-
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <!--  <script src="https://cmp.osano.com/Azyw2iRwgu68fZpR/9a3d4c28-c535-4d29-ab20-aeb8c3687a62/osano.js"></script> -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYH92BHQJ6"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
   </script>
-  
+
   <meta property="og:locale" content="it_IT" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Rodari al Telefono" />
@@ -26,5 +27,27 @@
 </head>
 <body>
   <app-root></app-root>
+
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#8ec760",
+        "text": "#ffffff"
+      }
+    },
+    "content": {
+      "message": "Utilizziamo esclusivamente cookie tecnici \"anonimizzati\" a scopo di tracciamento statistico delle visite. ",
+      "dismiss": "OK!",
+      "link": "Vedi la nostra Privacy Policy",
+      "href": "/#/privacy-policy"
+    }
+  });
+  </script>
 </body>
 </html>
