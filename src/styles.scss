@@ -31,6 +31,14 @@
     font-weight:300;
 }
 
+body {
+    font-family: "Garamond-Regular", sans-serif;
+    font-style: normal;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
 .audio-player-box {
     position: fixed;
     bottom: 10px;
@@ -115,9 +123,6 @@
     padding: 20px;
     margin-bottom: 50px;
     background: rgba(255, 255, 255, 0.3);
-    font-family: 'Garamond-Regular';
-    font-weight: 500;
-    font-size: 1.2em;
     h1 {
         margin-top: 0;
         padding-top: 0;
@@ -225,6 +230,9 @@
     }
     div.as-button {
         font-size: 1.5em;
+    }
+    div:last-child {
+        margin-left: auto;
     }
 }
 
