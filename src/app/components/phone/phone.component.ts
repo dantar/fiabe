@@ -4,6 +4,7 @@ import { AudioLibraryService } from 'src/app/services/audio-library.service';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { HttpClient } from '@angular/common/http';
 import { Countdown } from 'src/app/models/countdown.model';
+import { SpecialDay } from 'src/app/models/special-day.model';
 
 @Component({
   selector: 'app-phone',
@@ -23,6 +24,7 @@ export class PhoneComponent implements OnInit {
   days: number;
   next: number;
   plural: string;
+  special: SpecialDay;
 
   constructor(private http: HttpClient, public router: Router, public library: AudioLibraryService) { }
 
@@ -37,6 +39,14 @@ export class PhoneComponent implements OnInit {
           this.next = countdown.favole;
           this.plural = this.days > 1? 'i':'o';
         }
+      });
+    });
+    this.http.get('assets/special-day.json').subscribe((specialDays: SpecialDay[]) => {
+      this.special = null;
+      specialDays.forEach(day => {
+        if (this._numdays(new Date(day.data)) === this._numdays(new Date())) {
+          this.special = day;
+        };
       });
     });
   }
