@@ -104,6 +104,10 @@ body {
     }
 }
 
+.mat-tooltip {
+    font-size: 1.2em;
+}
+
 .social-share-buttons a {
     display: inline-block;
     background: url(/assets/social-icons.svg) no-repeat;
@@ -187,6 +191,22 @@ body {
         font-family: 'Little-Days', sans-serif;
         font-size: 3.5em;
         font-weight: 800;
+    }
+}
+
+.splash-svg {
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    div {
+        position: fixed;
+        text-align: center;
     }
 }
 

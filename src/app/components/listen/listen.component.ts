@@ -21,6 +21,10 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
       transition('hidden => shown', [animate('1s')]),
       transition('shown => hidden', [animate('1s')]),
     ]),
+    trigger('fadeinout', [
+      transition(':enter', [style({opacity: 0}), animate('1s', style({opacity: 1}))]),
+      transition(':leave', [style({opacity: 1}), animate('1s', style({opacity: 0}))]),
+    ]),
   ]
 })
 
@@ -61,6 +65,10 @@ export class ListenComponent implements OnInit {
     } else {
       this.progress = 'shown';
     }
+  }
+
+  goToPaintMe() {
+
   }
 
 }

@@ -17,6 +17,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-policy.component';
 
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PrivacyPolicyComponent } from './components/privacy-policy/privacy-poli
     AppRoutingModule,
     BrowserAnimationsModule,
     NgxAudioPlayerModule,
-    HttpClientModule
+    HttpClientModule,
+    MatTooltipModule,
   ],
   providers: [
     GamesCommonService,
