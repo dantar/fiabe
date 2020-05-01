@@ -3,6 +3,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Favola } from 'src/app/models/favola.model';
 import { AudioLibraryService } from 'src/app/services/audio-library.service';
 import { trigger, state, style, transition, animate } from '@angular/animations';
+import { AcceptCookieService } from 'src/app/services/accept-cookie.service';
+
+declare let gtag: Function;
 
 @Component({
   selector: 'app-listen',
@@ -37,7 +40,8 @@ export class ListenComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private library: AudioLibraryService
+    private library: AudioLibraryService,
+    private cookies: AcceptCookieService,
     ) { }
 
   // Material Style Basic Audio Player Title and Audio URL
@@ -68,7 +72,11 @@ export class ListenComponent implements OnInit {
   }
 
   goToPaintMe() {
-
-  }
+    gtag('config', 'G-KYH92BHQJ6', {
+      'page_path': '/hangar/colorme',
+      'anonimize_ip': !this.cookies.accept
+    });
+    gtag('event', 'hangar_colorme', {'event_category': 'Navigation'});
+}
 
 }

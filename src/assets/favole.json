@@ -103,5 +103,40 @@
     "audio": "assets/la_passeggiata_di_un_distratto.mp3",
     "icon": "assets/la_passeggiata_di_un_distratto-icon.jpg",
     "image": "assets/la_passeggiata_di_un_distratto.jpg"
+  },
+  {
+    "id": null,
+    "titolo": null,
+    "audio": null,
+    "icon": "assets/ghost.png",
+    "image": null
+  },
+  {
+    "id": "il_giovane_gambero",
+    "titolo": "Il giovane gambero",
+    "audio": "assets/il_giovane_gambero.mp3",
+    "icon": "assets/il_giovane_gambero-icon.jpg",
+    "image": "assets/il_giovane_gambero.jpg"
+  },
+  {
+    "id": "sulla_spiaggia_di_ostia",
+    "titolo": "Sulla spiaggia di Ostia",
+    "audio": "assets/sulla_spiaggia_di_ostia.mp3",
+    "icon": "assets/sulla_spiaggia_di_ostia-icon.jpg",
+    "image": "assets/sulla_spiaggia_di_ostia.jpg"
+  },
+  {
+    "id": "alice_cascherina",
+    "titolo": "Alice cascherina",
+    "audio": "assets/alice_cascherina.mp3",
+    "icon": "assets/alice_cascherina-icon.jpg",
+    "image": "assets/alice_cascherina.jpg"
+  },
+  {
+    "id": null,
+    "titolo": null,
+    "audio": null,
+    "icon": "assets/ghost.png",
+    "image": null
   }
 ]

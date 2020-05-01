@@ -33,4 +33,10 @@ export class BrowseAllComponent implements OnInit {
     }
   }
 
+  goToListen(favola: Favola) {
+    if (favola.id) {
+      this.router.navigate(['listen', favola.id]);
+    }
+  }
+
 }
