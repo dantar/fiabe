@@ -19,7 +19,7 @@ declare let gtag: Function;
       transition(':enter', [style({opacity: 1}), animate('8s', style({opacity: 1})), animate('10s', style({opacity: 0}))]),
     ]),
     trigger('clicktoappear', [
-      state('hidden', style({opacity: 0})),
+      state('hidden', style({opacity: 0, top: '100%'})),
       state('shown', style({opacity: 1})),
       transition('hidden => shown', [animate('1s')]),
       transition('shown => hidden', [animate('1s')]),

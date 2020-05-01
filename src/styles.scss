@@ -105,6 +105,25 @@ body {
     }
 }
 
+.listen-image-box {
+    position:fixed; 
+    svg {
+        height: 100%;
+        width: 100%;
+    }
+    div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        a {
+            text-align: center;
+            color: #420910;
+        }
+    }
+}
+
 .mat-tooltip {
     font-size: 1.2em;
 }
@@ -177,10 +196,6 @@ body {
 
 .splash-title {
     position: fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,12 +295,26 @@ body {
         padding-left: 10px;
     }
     .splash-title {
+        top:0; 
+        left:0; 
+        height:80%; 
+        width:100%;
         div {
             padding-top: 70px;
         }
     }
     .footer {
         height: 100px;
+    }
+    .listen-image-box {
+        top:0; 
+        left:0; 
+        height:100%; 
+        width:100%;
+        div {
+            position: fixed;
+            bottom: 2px;
+        }
     }
 }
 @media screen and (orientation:landscape) {
@@ -303,9 +332,22 @@ body {
         padding-bottom: 10px;
     }
     .splash-title {
+        top:2%; 
+        left:5%; 
+        height:90%; 
+        width:90%;
         div {
             padding-left: 70px;
             padding-right: 70px;
+        }
+    }
+    .listen-image-box {
+        top:2%; 
+        left:5%; 
+        height:90%; 
+        width:90%;
+        div {
+            height: 8%;
         }
     }
 }
