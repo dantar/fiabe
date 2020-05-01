@@ -34,7 +34,7 @@ export class AudioLibraryService {
   onemore(): Favola {
     const check = this.dial.map(e => JSON.stringify(e));
     if (this.more.length === 0) {
-      this.more = JSON.parse(JSON.stringify(this.favole)).filter(e => !check.includes(JSON.stringify(e)));
+      this.more = JSON.parse(JSON.stringify(this.favole)).filter(e => e.id && !check.includes(JSON.stringify(e)));
       this.games.shuffle(this.more);
     }
     return this.more.pop();
