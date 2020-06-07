@@ -1,4 +1,5 @@
 [
+
   {
     "id": "apollonia",
     "titolo": "L'Apollonia della marmellata",
@@ -34,6 +35,7 @@
     "icon": "assets/il_naso_che_scappa-icon.jpg",
     "image": "assets/il_naso_che_scappa.jpg"
   },
+
   {
     "id": "paese",
     "titolo": "Il paese senza punta",
@@ -69,6 +71,7 @@
     "icon": "assets/la_famosa_pioggia_di_piombino-icon.jpg",
     "image": "assets/la_famosa_pioggia_di_piombino.jpg"
   },
+
   {
     "id": "il_pozzo_di_cascina_piana",
     "titolo": "Il pozzo di Cascina Piana",
@@ -104,13 +107,7 @@
     "icon": "assets/la_passeggiata_di_un_distratto-icon.jpg",
     "image": "assets/la_passeggiata_di_un_distratto.jpg"
   },
-  {
-    "id": null,
-    "titolo": null,
-    "audio": null,
-    "icon": "assets/ghost.png",
-    "image": null
-  },
+
   {
     "id": "il_giovane_gambero",
     "titolo": "Il giovane gambero",
@@ -133,10 +130,54 @@
     "image": "assets/alice_cascherina.jpg"
   },
   {
+    "id": "il_semaforo_blu",
+    "titolo": "Il semaforo blu",
+    "audio": "assets/il_semaforo_blu.mp3",
+    "icon": "assets/il_semaforo_blu-icon.jpg",
+    "image": "assets/il_semaforo_blu.jpg"
+  },
+  {
+    "id": "la_guerra_delle_campane",
+    "titolo": "La guerra delle campane",
+    "audio": "assets/la_guerra_delle_campane.mp3",
+    "icon": "assets/la_guerra_delle_campane-icon.jpg",
+    "image": "assets/la_guerra_delle_campane.jpg"
+  },
+
+  {
+    "id": null,
+    "titolo": null,
+    "audio": null,
+    "icon": "assets/ghost.png",
+    "image": null
+  },
+  {
+    "id": null,
+    "titolo": null,
+    "audio": null,
+    "icon": "assets/ghost.png",
+    "image": null
+  },
+  {
+    "id": "il_pianeta_della_verita",
+    "titolo": "Il pianeta della verità",
+    "audio": "assets/il_pianeta_della_verita.mp3",
+    "icon": "assets/il_pianeta_della_verita-icon.jpg",
+    "image": "assets/il_pianeta_della_verita.jpg"
+  },
+  {
+    "id": null,
+    "titolo": null,
+    "audio": null,
+    "icon": "assets/ghost.png",
+    "image": null
+  },
+  {
     "id": null,
     "titolo": null,
     "audio": null,
     "icon": "assets/ghost.png",
     "image": null
   }
+
 ]
