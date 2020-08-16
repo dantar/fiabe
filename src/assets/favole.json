@@ -152,11 +152,11 @@
     "image": null
   },
   {
-    "id": null,
-    "titolo": null,
-    "audio": null,
-    "icon": "assets/ghost.png",
-    "image": null
+    "id": "la_donnina_che_contava_gli_starnuti",
+    "titolo": "La donnina che contava gli starnuti",
+    "audio": "assets/la_donnina_che_contava_gli_starnuti.mp3",
+    "icon": "assets/la_donnina_che_contava_gli_starnuti-icon.jpg",
+    "image": "assets/la_donnina_che_contava_gli_starnuti.jpg"
   },
   {
     "id": "il_pianeta_della_verita",
@@ -166,11 +166,11 @@
     "image": "assets/il_pianeta_della_verita.jpg"
   },
   {
-    "id": null,
-    "titolo": null,
-    "audio": null,
-    "icon": "assets/ghost.png",
-    "image": null
+    "id": "il_paese_con_l_esse_davanti",
+    "titolo": "Il paese con l'esse davanti",
+    "audio": "assets/il_paese_con_l_esse_davanti.mp3",
+    "icon": "assets/il_paese_con_l_esse_davanti-icon.jpg",
+    "image": "assets/il_paese_con_l_esse_davanti.jpg"
   },
   {
     "id": null,

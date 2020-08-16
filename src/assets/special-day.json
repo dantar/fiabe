@@ -1,4 +1,18 @@
 [
   {"data": "2020-04-25", "tag": "25aprile"},
-  {"data": "2020-05-01", "tag": "1maggio"}
+  {"data": "2020-05-01", "tag": "1maggio"},
+  {"data": "2020-08-16", "tag": "andria"},
+  {"data": "2020-08-17", "tag": "andria"},
+  {"data": "2020-08-18", "tag": "andria"},
+  {"data": "2020-08-19", "tag": "andria"},
+  {"data": "2020-08-20", "tag": "andria"},
+  {"data": "2020-08-21", "tag": "andria"},
+  {"data": "2020-08-22", "tag": "andria"},
+  {"data": "2020-08-23", "tag": "andria"},
+  {"data": "2020-08-24", "tag": "andria"},
+  {"data": "2020-08-25", "tag": "andria"},
+  {"data": "2020-08-26", "tag": "andria"},
+  {"data": "2020-08-27", "tag": "andria"},
+  {"data": "2020-08-28", "tag": "andria"},
+  {"data": "2020-08-29", "tag": "andria"}
 ]
