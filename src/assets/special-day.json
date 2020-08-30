@@ -3,5 +3,13 @@
   {"data": "2020-05-01", "tag": "1maggio"},
   {"data": "2020-08-28", "tag": "andria"},
   {"data": "2020-08-29", "tag": "andria"},
-  {"data": "2020-08-30", "tag": "festival-08-30"}
+  {"data": "2020-08-30", "tag": "festival-08-30"},
+  {"data": "2020-08-31", "tag": "festival-08-31"},
+  {"data": "2020-09-01", "tag": "festival-09-01"},
+  {"data": "2020-09-02", "tag": "festival-09-02"},
+  {"data": "2020-09-03", "tag": "festival-09-03"},
+  {"data": "2020-09-04", "tag": "festival-09-04"},
+  {"data": "2020-09-05", "tag": "festival-09-05"},
+  {"data": "2020-09-06", "tag": "festival-09-06"},
+  {"data": "2020-09-07", "tag": "festival-09-07"}
 ]
