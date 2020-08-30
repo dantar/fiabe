@@ -216,7 +216,7 @@
     "audio": "assets/le_scimmie_in_viaggio.mp3",
     "icon": "assets/le_scimmie_in_viaggio-icon.jpg",
     "image": "assets/le_scimmie_in_viaggio.png",
-    "hangar": true,
+    "hangar": false,
     "alwayson": true
   },
   {
