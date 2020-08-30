@@ -4,4 +4,5 @@ export class Favola {
     audio: string;
     icon: string;
     image: string;
+    hangar: boolean;
 }

@@ -5,35 +5,40 @@
     "titolo": "L'Apollonia della marmellata",
     "audio": "assets/l_apollonia_della_marmellata.mp3",
     "icon": "assets/l_apollonia_della_marmellata-icon.jpg",
-    "image": "assets/l_apollonia_della_marmellata.jpg"
+    "image": "assets/l_apollonia_della_marmellata.jpg",
+    "hangar": true
   },
   {
     "id": "delre",
     "titolo": "A toccare il naso del re",
     "audio": "assets/a_toccare_il_naso_del_re.mp3",
     "icon": "assets/a_toccare_il_naso_del_re-icon.jpg",
-    "image": "assets/a_toccare_il_naso_del_re.jpg"
+    "image": "assets/a_toccare_il_naso_del_re.jpg",
+    "hangar": true
   },
   {
     "id": "brif",
     "titolo": "Brif bruf braf",
     "audio": "assets/brif_bruf_braf.mp3",
     "icon": "assets/brif_bruf_braf-icon.jpg",
-    "image": "assets/brif_bruf_braf.jpg"
+    "image": "assets/brif_bruf_braf.jpg",
+    "hangar": true
   },
   {
     "id": "filobus",
     "titolo": "Il filobus 75",
     "audio": "assets/il_filobus_75.mp3",
     "icon": "assets/il_filobus_75-icon.jpg",
-    "image": "assets/il_filobus_75.jpg"
+    "image": "assets/il_filobus_75.jpg",
+    "hangar": true
   },
   {
     "id": "scappa",
     "titolo": "Il naso che scappa",
     "audio": "assets/il_naso_che_scappa.mp3",
     "icon": "assets/il_naso_che_scappa-icon.jpg",
-    "image": "assets/il_naso_che_scappa.jpg"
+    "image": "assets/il_naso_che_scappa.jpg",
+    "hangar": true
   },
 
   {
@@ -41,35 +46,40 @@
     "titolo": "Il paese senza punta",
     "audio": "assets/il_paese_senza_punta.mp3",
     "icon": "assets/il_paese_senza_punta-icon.jpg",
-    "image": "assets/il_paese_senza_punta.jpg"
+    "image": "assets/il_paese_senza_punta.jpg",
+    "hangar": true
   },
   {
     "id": "palazzo",
     "titolo": "Il palazzo di gelato",
     "audio": "assets/il_palazzo_di_gelato.mp3",
     "icon": "assets/il_palazzo_di_gelato-icon.jpg",
-    "image": "assets/il_palazzo_di_gelato.jpg"
+    "image": "assets/il_palazzo_di_gelato.jpg",
+    "hangar": true
   },
   {
     "id": "giacomo",
     "titolo": "Giacomo di cristallo",
     "audio": "assets/giacomo_di_cristallo.mp3",
     "icon": "assets/giacomo_di_cristallo-icon.jpg",
-    "image": "assets/giacomo_di_cristallo.jpg"
+    "image": "assets/giacomo_di_cristallo.jpg",
+    "hangar": true
   },
   {
     "id": "topo",
     "titolo": "Il topo che mangiava i gatti",
     "audio": "assets/il_topo_che_mangiava_i_gatti.mp3",
     "icon": "assets/il_topo_che_mangiava_i_gatti-icon.jpg",
-    "image": "assets/il_topo_che_mangiava_i_gatti.jpg"
+    "image": "assets/il_topo_che_mangiava_i_gatti.jpg",
+    "hangar": true
   },
   {
     "id": "pioggia",
     "titolo": "La famosa pioggia di Piombino",
     "audio": "assets/la_famosa_pioggia_di_piombino.mp3",
     "icon": "assets/la_famosa_pioggia_di_piombino-icon.jpg",
-    "image": "assets/la_famosa_pioggia_di_piombino.jpg"
+    "image": "assets/la_famosa_pioggia_di_piombino.jpg",
+    "hangar": true
   },
 
   {
@@ -143,14 +153,6 @@
     "icon": "assets/la_guerra_delle_campane-icon.jpg",
     "image": "assets/la_guerra_delle_campane.jpg"
   },
-
-  {
-    "id": null,
-    "titolo": null,
-    "audio": null,
-    "icon": "assets/ghost.png",
-    "image": null
-  },
   {
     "id": "la_donnina_che_contava_gli_starnuti",
     "titolo": "La donnina che contava gli starnuti",
@@ -171,6 +173,13 @@
     "audio": "assets/il_paese_con_l_esse_davanti.mp3",
     "icon": "assets/il_paese_con_l_esse_davanti-icon.jpg",
     "image": "assets/il_paese_con_l_esse_davanti.jpg"
+  },
+  {
+    "id": "le_scimmie_in_viaggio",
+    "titolo": "Le scimmie in viaggio",
+    "audio": "assets/le_scimmie_in_viaggio.mp3",
+    "icon": "assets/le_scimmie_in_viaggio-icon.jpg",
+    "image": "assets/le_scimmie_in_viaggio.png"
   },
   {
     "id": null,

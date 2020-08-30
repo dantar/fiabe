@@ -27,6 +27,7 @@ export class AboutComponent implements OnInit {
       'Francesco Borsacchi', 
       'Ginevra Bruscino', 
       'Carla Buscemi', 
+      'Pietro Capurso',
       'Eugenia Conti', 
       'Giulia Del Nista', 
       'Maria Falcone', 
