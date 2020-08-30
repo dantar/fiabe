@@ -5,4 +5,5 @@ export class Favola {
     icon: string;
     image: string;
     hangar: boolean;
+    alwayson: boolean;
 }

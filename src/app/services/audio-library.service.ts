@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Favola } from '../models/favola.model';
 import { GamesCommonService } from './games-common.service';
 import { HttpClient } from '@angular/common/http';
+import { fallInAppear } from '../animations';
 
 @Injectable({
   providedIn: 'root'
@@ -26,9 +27,15 @@ export class AudioLibraryService {
 
   shuffle() {
     this.dial = [];
-    for (let index = 0; index < 10; index++) {
+    this.favole
+    .filter(f => f.alwayson)
+    .map(f => JSON.parse(JSON.stringify(f)))
+    .forEach(f => this.dial.push(f));
+    let size = this.dial.length;
+    for (let index = 0; index < (10 - size); index++) {
       this.dial.push(this.onemore());
     }
+    this.games.shuffle(this.dial);
   }
 
   onemore(): Favola {
