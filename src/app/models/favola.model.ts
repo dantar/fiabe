@@ -6,4 +6,5 @@ export class Favola {
     image: string;
     hangar: boolean;
     alwayson: boolean;
+    pubblicazione: string; // data di pubblicazione o null se pubblicabile subito
 }

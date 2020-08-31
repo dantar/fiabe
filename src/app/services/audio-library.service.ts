@@ -19,7 +19,21 @@ export class AudioLibraryService {
   constructor(private http: HttpClient, private games: GamesCommonService) {
     this.fmap = {};
     this.http.get<Favola[]>('assets/favole.json').subscribe(favole => {
-      this.favole = favole;
+      let ghost: Favola = {
+        id: null,
+        titolo: null,
+        audio: null,
+        icon: "assets/ghost.png",
+        image: null,
+        hangar: false,
+        alwayson: false,
+        pubblicazione: null,
+      };
+      this.favole = favole.filter(f => f.pubblicazione === null || new Date(f.pubblicazione) <= new Date());
+      let count = this.favole.length % 5;
+      for (let index = 0; index < count; index++) {
+        this.favole.push(ghost);
+      }
       this.favole.forEach(f=>this.fmap[f.id] = f);
       this.shuffle();
     });

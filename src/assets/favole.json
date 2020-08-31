@@ -7,7 +7,8 @@
     "icon": "assets/l_apollonia_della_marmellata-icon.jpg",
     "image": "assets/l_apollonia_della_marmellata.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "delre",
@@ -16,7 +17,8 @@
     "icon": "assets/a_toccare_il_naso_del_re-icon.jpg",
     "image": "assets/a_toccare_il_naso_del_re.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "brif",
@@ -25,7 +27,8 @@
     "icon": "assets/brif_bruf_braf-icon.jpg",
     "image": "assets/brif_bruf_braf.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "filobus",
@@ -34,7 +37,8 @@
     "icon": "assets/il_filobus_75-icon.jpg",
     "image": "assets/il_filobus_75.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "scappa",
@@ -43,7 +47,8 @@
     "icon": "assets/il_naso_che_scappa-icon.jpg",
     "image": "assets/il_naso_che_scappa.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
 
   {
@@ -53,7 +58,8 @@
     "icon": "assets/il_paese_senza_punta-icon.jpg",
     "image": "assets/il_paese_senza_punta.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "palazzo",
@@ -62,7 +68,8 @@
     "icon": "assets/il_palazzo_di_gelato-icon.jpg",
     "image": "assets/il_palazzo_di_gelato.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "giacomo",
@@ -71,7 +78,8 @@
     "icon": "assets/giacomo_di_cristallo-icon.jpg",
     "image": "assets/giacomo_di_cristallo.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "topo",
@@ -80,7 +88,8 @@
     "icon": "assets/il_topo_che_mangiava_i_gatti-icon.jpg",
     "image": "assets/il_topo_che_mangiava_i_gatti.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "pioggia",
@@ -89,7 +98,8 @@
     "icon": "assets/la_famosa_pioggia_di_piombino-icon.jpg",
     "image": "assets/la_famosa_pioggia_di_piombino.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
 
   {
@@ -99,7 +109,8 @@
     "icon": "assets/il_pozzo_di_cascina_piana-icon.jpg",
     "image": "assets/il_pozzo_di_cascina_piana.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "il_topo_dei_fumetti",
@@ -108,7 +119,8 @@
     "icon": "assets/il_topo_dei_fumetti-icon.jpg",
     "image": "assets/il_topo_dei_fumetti.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "uno_e_sette",
@@ -117,7 +129,8 @@
     "icon": "assets/uno_e_sette-icon.jpg",
     "image": "assets/uno_e_sette.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "il_palazzo_da_rompere",
@@ -126,7 +139,8 @@
     "icon": "assets/il_palazzo_da_rompere-icon.jpg",
     "image": "assets/il_palazzo_da_rompere.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "la_passeggiata_di_un_distratto",
@@ -135,7 +149,8 @@
     "icon": "assets/la_passeggiata_di_un_distratto-icon.jpg",
     "image": "assets/la_passeggiata_di_un_distratto.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
 
   {
@@ -145,7 +160,8 @@
     "icon": "assets/il_giovane_gambero-icon.jpg",
     "image": "assets/il_giovane_gambero.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "sulla_spiaggia_di_ostia",
@@ -154,7 +170,8 @@
     "icon": "assets/sulla_spiaggia_di_ostia-icon.jpg",
     "image": "assets/sulla_spiaggia_di_ostia.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "alice_cascherina",
@@ -163,7 +180,8 @@
     "icon": "assets/alice_cascherina-icon.jpg",
     "image": "assets/alice_cascherina.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "il_semaforo_blu",
@@ -172,7 +190,8 @@
     "icon": "assets/il_semaforo_blu-icon.jpg",
     "image": "assets/il_semaforo_blu.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "la_guerra_delle_campane",
@@ -181,7 +200,8 @@
     "icon": "assets/la_guerra_delle_campane-icon.jpg",
     "image": "assets/la_guerra_delle_campane.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "la_donnina_che_contava_gli_starnuti",
@@ -190,7 +210,8 @@
     "icon": "assets/la_donnina_che_contava_gli_starnuti-icon.jpg",
     "image": "assets/la_donnina_che_contava_gli_starnuti.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "il_pianeta_della_verita",
@@ -199,7 +220,8 @@
     "icon": "assets/il_pianeta_della_verita-icon.jpg",
     "image": "assets/il_pianeta_della_verita.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "il_paese_con_l_esse_davanti",
@@ -208,7 +230,8 @@
     "icon": "assets/il_paese_con_l_esse_davanti-icon.jpg",
     "image": "assets/il_paese_con_l_esse_davanti.jpg",
     "hangar": true,
-    "alwayson": false
+    "alwayson": false,
+    "pubblicazione": null
   },
   {
     "id": "le_scimmie_in_viaggio",
@@ -217,16 +240,38 @@
     "icon": "assets/le_scimmie_in_viaggio-icon.jpg",
     "image": "assets/le_scimmie_in_viaggio.png",
     "hangar": false,
-    "alwayson": true
+    "alwayson": true,
+    "pubblicazione": null
   },
   {
-    "id": null,
-    "titolo": null,
-    "audio": null,
-    "icon": "assets/ghost.png",
-    "image": null,
-    "hangar": false,
-    "alwayson": false
+    "id": "la_strada_di_cioccolato",
+    "titolo": "La strada di cioccolato",
+    "audio": "assets/la_strada_di_cioccolato.mp3",
+    "icon": "assets/la_strada_di_cioccolato-icon.jpg",
+    "image": "assets/la_strada_di_cioccolato.jpg",
+    "hangar": true,
+    "alwayson": false,
+    "pubblicazione": "2020-09-01"
+  },
+  {
+    "id": "il_mago_delle_comete",
+    "titolo": "Il mago delle comete",
+    "audio": "assets/il_mago_delle_comete.mp3",
+    "icon": "assets/il_mago_delle_comete-icon.jpg",
+    "image": "assets/il_mago_delle_comete.jpg",
+    "hangar": true,
+    "alwayson": false,
+    "pubblicazione": "2020-09-03"
+  },
+  {
+    "id": "il_pescatore_di_cefalu",
+    "titolo": "Il pescatore di Cefalù",
+    "audio": "assets/il_pescatore_di_cefalu.mp3",
+    "icon": "assets/il_pescatore_di_cefalu-icon.jpg",
+    "image": "assets/il_pescatore_di_cefalu.jpg",
+    "hangar": true,
+    "alwayson": false,
+    "pubblicazione": "2020-09-05"
   }
 
 ]
