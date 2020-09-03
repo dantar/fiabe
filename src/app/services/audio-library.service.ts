@@ -31,8 +31,10 @@ export class AudioLibraryService {
       };
       this.favole = favole.filter(f => f.pubblicazione === null || new Date(f.pubblicazione) <= new Date());
       let count = this.favole.length % 5;
-      for (let index = 0; index < count; index++) {
-        this.favole.push(ghost);
+      if (count > 0) {
+        for (let index = 0; index < (5 - count); index++) {
+          this.favole.push(ghost);
+        }
       }
       this.favole.forEach(f=>this.fmap[f.id] = f);
       this.shuffle();
