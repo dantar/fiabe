@@ -206,7 +206,7 @@
          id="tspan1734">oggi-1-nuova-favola!</tspan></text>
    </g>
    
-   <g id="prossimamente" *ngIf="days === -1 && !special">
+   <g id="prossimamente" *ngIf="false">
       <rect
          style="opacity:1;vector-effect:none;fill:#fbf2c7;fill-opacity:1;stroke:none;stroke-width:10.90010929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
          id="rect903"
@@ -228,6 +228,51 @@
             x="24.289951"
             id="tspan905">Prossimamente-nuove-favole!</tspan></text>
    </g>
+
+   <g *ngIf="days === -1 && !special" id="finale">
+      <rect
+         style="opacity:1;vector-effect:none;fill:#fbf2c7;fill-opacity:1;stroke:none;stroke-width:10.90010929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect1089"
+         width="47.943405"
+         height="3.0109847"
+         x="35.888954"
+         y="90.744385"
+         ry="0.2886734"
+         transform="rotate(-2.6659167)" />
+      <text
+         id="text1093"
+         y="94.46685"
+         x="35.179192"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53915071px;line-height:1.25;font-family:Dymo;-inkscape-font-specification:'Dymo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#51291c;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none"
+         xml:space="preserve"
+         transform="rotate(-2.950666)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53915071px;font-family:Dymo;-inkscape-font-specification:'Dymo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#51291c;fill-opacity:1;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none"
+         y="94.46685"
+         x="35.179192"
+         id="tspan1091">un-esercizio-di-fantasia!</tspan></text>
+      <rect
+         transform="rotate(3.1422753)"
+         ry="0.2886734"
+         y="80.586761"
+         x="27.952257"
+         height="3.2229655"
+         width="23.777933"
+         id="rect923"
+         style="opacity:1;vector-effect:none;fill:#fbf2c7;fill-opacity:1;stroke:none;stroke-width:10.90010929;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <text
+         transform="rotate(2.8575253)"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53915071px;line-height:1.25;font-family:Dymo;-inkscape-font-specification:'Dymo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#51291c;fill-opacity:1;stroke:none;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none"
+         x="27.293072"
+         y="84.269897"
+         id="text927"><tspan
+         id="tspan925"
+         x="27.293072"
+         y="84.269897"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.53915071px;font-family:Dymo;-inkscape-font-specification:'Dymo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#51291c;fill-opacity:1;stroke-width:0.37795275;stroke-miterlimit:4;stroke-dasharray:none">ascoltare-e'</tspan></text>
+   </g>
+
+
 </g>
 
 <g id="special-25aprile" *ngIf="special && special.tag === '25aprile'">
@@ -751,7 +796,7 @@ id="titolo">
 
 <div class="panel-menu-list bottom-left-menu">
 
-   <div class="panel-menu-item">
+   <div class="panel-menu-item" *ngIf="special && special.tag.substring(0,8) === 'festival'">
       <a href="https://www.casteldeimondi.com" target="_blank">
          <img src="assets/logo-andria.png" style="height: 50px;" />
       </a>
