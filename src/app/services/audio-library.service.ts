@@ -44,7 +44,7 @@ export class AudioLibraryService {
   shuffle() {
     this.dial = [];
     this.favole
-    .filter(f => f.alwayson)
+    .filter(f => f.alwayson || (f.pubblicazione === this.fmtDate(new Date())))
     .map(f => JSON.parse(JSON.stringify(f)))
     .forEach(f => this.dial.push(f));
     let size = this.dial.length;
@@ -52,6 +52,13 @@ export class AudioLibraryService {
       this.dial.push(this.onemore());
     }
     this.games.shuffle(this.dial);
+  }
+
+  private fmtDate(d: Date): string {
+    return [d.getFullYear(), this.pad(d.getMonth()+1), this.pad(d.getDate())].join('-');
+  }
+  private pad(s: number) {
+    return (s < 10) ? '0' + s : s;
   }
 
   onemore(): Favola {

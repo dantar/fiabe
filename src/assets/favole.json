@@ -240,7 +240,7 @@
     "icon": "assets/le_scimmie_in_viaggio-icon.jpg",
     "image": "assets/le_scimmie_in_viaggio.png",
     "hangar": false,
-    "alwayson": true,
+    "alwayson": false,
     "pubblicazione": null
   },
   {
@@ -272,6 +272,17 @@
     "hangar": true,
     "alwayson": false,
     "pubblicazione": "2020-09-05"
+  },
+  {
+    "id": "cucina_spaziale",
+    "titolo": "Cucina spaziale",
+    "audio": "assets/cucina_spaziale.mp3",
+    "icon": "assets/cucina_spaziale-icon.jpg",
+    "image": "assets/cucina_spaziale.png",
+    "hangar": false,
+    "alwayson": false,
+    "pubblicazione": "2020-10-23"
   }
+
 
 ]
