@@ -282,18 +282,5 @@
     "hangar": false,
     "alwayson": false,
     "pubblicazione": "2020-10-23"
-  },
-  {
-    "id": "if_2021",
-    "titolo": "Internet Festival 2021",
-    "audio": "assets/if_2021.mp3",
-    "icon": "assets/if_2021-icon.png",
-    "image": "assets/if_2021.png",
-    "hangar": false,
-    "alwayson": true,
-    "pubblicazione": "2021-10-08"
   }
-
-
-
 ]
